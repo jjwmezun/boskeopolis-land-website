@@ -1,0 +1,33 @@
+html,
+body
+	margin: 0
+	padding: 0
+
+@keyframes scrollingbg
+	from
+		background-position: 0 bottom
+	to
+		background-position: 495px bottom
+
+body
+	font-family: "Roboto"
+	background-color: #e8c7f1
+	background-image: url( "images/boskeopolis-land-skyscrapers.png" )
+	background-position: 0 bottom
+	background-attachment: fixed
+	background-repeat: repeat-x
+	animation-name: scrollingbg
+	animation-duration: 3s
+	animation-iteration-count: infinite
+	animation-delay: 0
+	animation-timing-function: linear
+h1,
+h2
+	font-weight: 900
+
+a
+	&:link,
+	&:visited
+		text-decoration: underline
+	&:hover
+		text-decoration: none
