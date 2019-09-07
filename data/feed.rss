@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
+<channel>
+	<title>The Mezunian</title>
+	<atom:link href="https://www.mezunian.com/feed/" rel="self" type="application/rss+xml"/>
+	<link>https://www.mezunian.com</link>
+	<description>Die Positivität ist das Opium des Volkes, aber der Spott ist das Opium der Verrückten</description>
+	<lastBuildDate>Sun, 11 Aug 2019 23:56:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.3</generator>
+	<item>
+		<title>Boskeopolis Land: Let’s Code a Crappy 2D Platformer Like Millions o’ Other People on the Internet &amp; Lose Interest &amp; Give Up Only a Few Months In, Part XXXXVI: Petrol Pond Place</title>
+		<link>https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/</link>
+				<comments>https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/#respond</comments>
+				<pubDate>Sun, 11 Aug 2019 23:56:57 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Boskeopolis Land]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4512</guid>
+				<description><![CDATA[The main delay for this level was designer’s block. I knew I wanted a level with sunset harbor graphics, but I wasn’t sure what I wanted to do with such a level. Early on I decided on implementing oil water, which basically works like the water in “Rusty Bucket Bay” in Banjo-Kazooie: you lose oxygen [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><iframe class="mezun-post-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/_P4Q1Tdvzt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The main delay for this level was designer’s block. I knew I wanted a level with sunset harbor graphics, but I wasn’t sure what I wanted to do with such a level. Early on I decided on implementing oil water, which basically works like the water in “Rusty Bucket Bay” in <i>Banjo-Kazooie</i>: you lose oxygen faster &amp; don’t regain your oxygen till you return to land ( as opposed to just leaving water into the air, which only stops it from decreasing, but doesn’t replenish it ). But then I had trouble figuring out what to do with said oil water.</p>
+<p>Round that time I also wanted to have pipes you could walk through that maybe went down into the water &amp; kept you oxygenated, but couldn’t figure out how to make it work well. This game uses block-based collision, &amp; whole blocks were too thick for pipe walls. Plus, I wasn’t sure how to make them show you will the oil water still hid everything ’neath.</p>
+<p>In the process o’ making this level, I developed numerous sprites, ’bout all o’ which are used in this level: window monsters that fall from their hidden place &amp; roll after you ( also taken from <i>Banjo-Kazooie</i> ), a machine that shoots pikes out o’ either end, Octopigs that hop &amp; shoot oil balls @ you, an iron wall that forces you to swim down &amp; hit a switch to make it lower, a water spout that causes a barrel to rise &amp; fall, &amp; crate platforms &amp; harmful hooks swooping back &amp; forth in a half-circular motion. In my defense, half o’ these are tied to the oil water: while the spout is just fancy paint o’er a rising &amp; falling platform, the pike machine &amp; iron wall are basically ways to challenge your ability to maneuver through oil water &amp; get out before drowning. So they didn’t seem too thrown-in, I brought back the window monsters &amp; pike machine @ the beginning o’ the level into the end o’ the level, too, just with a trickier pattern ( the water spout glorified rising platform &amp; swooping platforms are too generic to need much extra use — there are plenty o’ moving platforms in other levels ). I also planned to add mo’ Octopigs @ the final stretch, but cut that part out as I found it too difficult &amp; stretched out a level that was already going a bit too long. Part o’ me wishes I kept the ladder up to the keycane wherein you have to dodge the shots o’ Octopigs; but I already have ’nough o’ that in <a href="https://www.mezunian.com/2019/03/02/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxii-good-ship-lifestyle/">“Good Ship Lifestyle”</a>.</p>
+<p>I don’t consider this my best level, but I s’pose it could be worse.</p>
+<p>As an addendum, <a href="https://www.boskeopolis-land.com/">I’ve recently created a website dedicated to this game at https://www.boskeopolis-land.com</a>. So far it’s still very simple, but I plan to continue updating it. For example, I hope to create some script that will scrape these posts &amp; create a list o’ links to them all to make them easier to find.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Boskeopolis Land: Let’s Code a Crappy 2D Platformer Like Millions o’ Other People on the Internet &amp; Lose Interest &amp; Give Up Only a Few Months In, Part XXXXV: Gravity, Hypocrisy, &amp; the Perils o’ Being in 3D</title>
+		<link>https://www.mezunian.com/2019/06/24/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxv-gravity-hypocrisy-the/</link>
+				<comments>https://www.mezunian.com/2019/06/24/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxv-gravity-hypocrisy-the/#respond</comments>
+				<pubDate>Mon, 24 Jun 2019 14:15:13 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Boskeopolis Land]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4507</guid>
+				<description><![CDATA[Gravity, Hypocrisy, &#038; the Perils o’ Being in 3D I’m surprised this made it past the rejection bin. This started as an idle, silly idea that I planned to procrastinate to the sequel, ’specially due to the rigidity o’ this game engine, thanks to me to being a terrible programmer who was an e’en terribler [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h2>Gravity, Hypocrisy, &#038; the Perils o’ Being in 3D</h2>
+<p><iframe class="mezun-post-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/fca3ArtesVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>I’m surprised this made it past the rejection bin. This started as an idle, silly idea that I planned to procrastinate to the sequel, ’specially due to the rigidity o’ this game engine, thanks to me to being a terrible programmer who was an e’en terribler programer when I started mo’ than 2 years ago. However, I figured out an easy way to do it by just adding some flags to hide all the blocks, make all the sprites invisible, &#038; then just create a background that draws everything seen in this level. This is thanks to the MapLayer class being ridiculously flexible: it’s basically just an update &#038; render virtual method.</p>
+<p>This level &#038; associated classes all have “Doom” in their name, but they should truly be called “Wolfenstein3D”, as this level uses the much simpler raycasting method that that game uses, rather than <i>Doom</i>’s mo’ complicated ( &#038; mo’ powerful ) BSP trees. Raycasting works better for this game’s engine, as it works well with grid-based maps, which this game engine uses, whereas Doom’s system is based on lines which can be @ any angle ( &#038; thus can have walls that aren’t all @ 90° angles, as <i>Wolfenstein 3D</i> &#038; this game have ). That’s fine for me, since this is just 1 level &#038; it’s s’sposed to have a retro look. I can tell you that I’d worry ’bout how primitive the 16-pixel block textures ( smaller than <i>Wolfenstein</i>’s, actually, but the size o’ blocks in this Mario-inspired engine ) look stetched out before I worry ’bout perfectly square walls. Since this works well with grid-based maps, I can just use a regular grid-based map &#038; keep their usual behavior. This pseudo-3d gimmick is nothing mo’ than a visual gimmick o’er a normal isometric 2D level — basically just <a href="https://www.mezunian.com/2017/02/20/lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xiii/">“Maybe I’m a Maze”</a>, but with simpler, slower enemies that you can kill off. The walls are just regular solid blocks, the gems &#038; hearts are the same gem &#038; heart blocks used in all the other levels, &#038; thus I didn’t have to add any new behavior there. Only the hero, enemy, &#038; bullet sprites needed much new behavioral programming, &#038; that was mostly to handle moving in various angles.</p>
+<p>For those curious, the gist o’ raycasting is that you calculate a ray for each vertical stripe o’ the screen measuring the distance ’tween the nearest solid block on the grid &#038; the player ( to be mo’ accurate, a point on an invisible line perpendicular to the player &#038; a li’ in front o’ the player to prevent a strange fish-eye perspective ) &#038; using that distance to calculate how tall that line o’ wall should be, with larger distances giving shorter lines &#038; shorter distances giving longer lines, simulating walls shrinking in the distance. ’Course, there’s many other complications, like applying a texture to these lines ( in my case, I just calculate which texture X it should have &#038; just stretch the texture block o’er the height o’ the line, which is mo’ efficient for SDL &#038; GPU than manually calculating each pixel ), creating perspective textures on the floor &#038; ceiling ( it’s a blur to me how I did this, though I do remember that the #s for the ceiling &#038; floor are the same, just using a different offset for different textures ), &#038; adding in “objects”, like the crab enemies, the bullets, the gems, &#038; hearts &#038; cutting out parts that are hidden ’hind walls ( this was actually the hardest part ). Since I have no idea what I’m doing for e’en basic programming, it’s obvious that I relied on learning how to do this nonsense from other sources, with <a href="https://lodev.org/cgtutor/raycasting.html">this tutorial</a> as a major influence, as well as <a href="http://fabiensanglard.net/Game_Engine_Black_Book/index.php">Fabien Sanglard’s excellent in-depth study o’ <i>Wolfenstein 3D</i>’s source code, <i>The Black Book of Wolfenstein 3D</i></a>, which is what inspired this idea in the 1st-place ( though <i>Wolfenstein 3D</i> used so much assembly &#038; so many arcane optimizations that most o’ its code wouldn&#8217;t work well for my project ). I did, however, twist the code I copied a lot so that it’s now virtually impossible to recognize, sometimes for petty anal-retentive reasons ( I don’t like free variables that change round a lot ) &#038; some for optimization reasons, due to the difference ’tween low-memory computers that these guides were aimed for &#038; modern computers with their strange GPUs &#038; SDL with its immensely limited GPU control compared to OpenGL.</p>
+<p>I ran into many subtle bugs ’long the way, ’cause this 3D-like business, e’en if just a graphical illusion, is far beyond what I’m used to. For instance, I don’t think my high school or my joke o’ a college I went to taught trigonometry, so I was just going off vague memories. ( I still don’t know what sine &#038; cosine do, but I know I remember I used it for calculating angles on the shmup level I still haven’t finished yet, so it makes sense here ). &#038; then I would just rely on trying things out &#038; seeing what happens. The last bug I ran into was when I changed the shooting so that the bullet appeared a block or so in front o’ the player when shooting, so the bullet starts @ a size you’d expect to come from the slingshot &#038; not @ the size o’ the screen ( which would make it look like Autumn is shooting rocks bigger than she is ), only for it to start @ the sides o’ the player when pointing in certain angles ( which makes e’en less sense, visually ). When creating this, I set the bullet to be an offset from the player’s center, which seemed most balanced; turned out, simply changing it to the x &#038; y position ( which is the top left ) made it work exactly as expected. This still makes less sense to me.</p>
+<p>For a long time before that, both bullets &#038; the player moved in weird angles. This was less obvious for the player, since you can’t see them; for the longest time, I just thought ’twas just my imprecise angling while playing. I finally realized the cause was that the acceleration &#038; velocity system I use for regular 2D movement doesn’t work with this strange angled movement. For those who don’t already know, almost all sprites move by setting acceleration, which is added to velocity every frame, which gets capped @ a set top speed, &#038; that velocity is added to position. This works great for, say, 2D platformer movement ( &#038; is, in fact, how movement in Mario games works — though they oft have weird acceleration oscillations for reasons I don’t understand ). However, for angled movement, this, with the velocity cap, creates a subtle problem: if your angle is so that you move mo’ on 1 axis than the other, then that axis’s speed will be greater than the other axis. However, due to the speed cap ( which is necessary to keep you from going just zipping through everything ), after the bigger axis reaches the speed cap before the other axis, the other axis keeps gaining speed till it reaches the same cap, which gradually transforms all non-straight angles ( all angles that don’t have the lesser axis as exactly 0 ) to 45°. This, logically, causes the very effect I could see from the beginning: veering parabolas. The level as shown just has constant speed for the player &#038; bullet sprites, which fixes this ( though, an example o’ this game engine’s stupid built-in rigidity, ’cause I have it built into the core sprite class that collision detection relies on the built-in velocity properties to work, I do still have to set velocity, or else do a bunch o’ work creating a new collision detection just for this level ).</p>
+<p>The 1 exception to this fix are the crab enemies: they still fall under the ol’ movement glitch, as you can see by their weird sideways movement in the video. I did this on purpose as I prefer this movement for them — it fits their crablike nature perfectly. The only bug with them is why I have crab enemies in a dungeon. The answer: I can’t think o’ an enemy design I like better than them &#038; they have a simple animation that isn’t a headache to depict.</p>
+<p>The challenge offered by the crab enemies is interesting to me: since this is a 1st-cycle level, I made this level very easy. The crabs aren’t very fast &#038; you have to basically try to get hurt if you see 1 coming up to you &#038; can’t shoot it down before it touches you. That is if you’re not racing round with strafing ( like in most games with 3D movement, strafing is quicker than just moving forward, which is why I move like a <i>Goldeneye 007</i> speedrun in the time challenge part o’ the video ); if you are, they can sneak up on you when you can’t see them clearly.</p>
+<p>Since this level is so easy, I didn’t feel any qualm with forcing the player to explore the whole maze &#038; collect every gem in the level to get the gem challenge. But man can it take long, &#038; makes me wonder if I should’ve picked a less monotonous song for this level ( “Boskeopolis Underground” had this same problem ). I was not happy when recording this video &#038; actually dying to a crab somehow when halfway through attempting this, making me do it all o’er ’gain.</p>
+<p>The time challenge, meanwhile, is easy if you know the strafing trick, ‘cause I didn’t want to force players to figure out such an obtuse trick to complete the game.</p>
+<p><a href="https://github.com/jjwmezun/boskeopolis-land">Source code</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/06/24/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxv-gravity-hypocrisy-the/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>lying back in a pond</title>
+		<link>https://www.mezunian.com/2019/06/21/lying-back-in-a-pond/</link>
+				<comments>https://www.mezunian.com/2019/06/21/lying-back-in-a-pond/#respond</comments>
+				<pubDate>Fri, 21 Jun 2019 07:00:53 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Haiku, Senryu y amigos]]></category>
+		<category><![CDATA[Poetry]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4503</guid>
+				<description><![CDATA[Summer day off ~ lying back in a pond, pine cone.]]></description>
+								<content:encoded><![CDATA[<div class="mezun-verse mezun-haiku">
+<p>Summer day off ~</p>
+<p>lying back in a pond,</p>
+<p>pine cone.</p>
+</div>
+<img src="https://www.mezunian.com/wp-content/uploads/2019/06/pinecone.jpg?m=1560719604" class="mezun-post-img" alt="" />
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/06/21/lying-back-in-a-pond/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Best Quiz on the Internet</title>
+		<link>https://www.mezunian.com/2019/06/16/best-quiz-on-the-internet/</link>
+				<comments>https://www.mezunian.com/2019/06/16/best-quiz-on-the-internet/#respond</comments>
+				<pubDate>Sun, 16 Jun 2019 20:48:17 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4496</guid>
+				<description><![CDATA[While looking up webliterature I bychance found an Animal Farm quiz &#038; for some reason tried it real quick. I’m glad I did. For instance, we start with this excellent math wherein a perfect 7 out o’ 7 transforms into a mere 88%: I wondered how one could make such a simple math mistake on [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>While looking up webliterature I bychance found an <i>Animal Farm</i> quiz &#038; for some reason tried it real quick. I’m glad I did.</p>
+<p>For instance, we start with this excellent math wherein a perfect 7 out o’ 7 transforms into a mere 88%:</p>
+<img src="https://www.mezunian.com/wp-content/uploads/2019/06/best-quiz-1.jpg?m=1560717145" class="mezun-post-img" alt="Quiz Results. Your Score: 7 of 7 (88%). Average Score for this quiz: 5.73 of 8 (72%)." />
+<p>I wondered how one could make such a simple math mistake on a computer program till I noticed the average score &#038; saw “of 8”, which indicates that this quiz probably used to have 8 answers &#038; the developer forgot to change the max used for the % calculation for “Your Score” ( which means the code for calculating that is different from what is used for the average score calculation &#038; that the max # is manually put in everywhere, which is to say, bad programming ).</p>
+<p>&#038; then we have totally correct answers, like that Snowball represents Vladimir Lenin.</p>
+<img src="https://www.mezunian.com/wp-content/uploads/2019/06/best-quiz-2.jpg?m=1560717146" class="mezun-post-img" alt="Your answer was correct. Who does Snowball represent? Your answer was: Vladimir Lenin. The correct answer is: Vladimir Lenin." />
+<p>¿Does everyone remember when Stalin chased Lenin out o’ Russia? I can only imagine that Stalin’s attempts to erase Trotsky from history just worked so well that the geniuses who made this quiz forgot he existed.</p>
+<p>&#038; then we have the best answers to any multiple-choice question:</p>
+<img src="https://www.mezunian.com/wp-content/uploads/2019/06/best-quiz-3.jpg?m=1560717147" class="mezun-post-img" alt="Question #6: Who does Old Major represent? 1. The writings of Karl Marx. 2. The mind of Carl Marxx." />
+<p>You know a quiz is good when 1 o’ its questions has 2 choices for answers: guy &#038; same guy with misspelled name.</p>
+<p>I also love how the use o’ the word “who” implies that Karl Marx’s writings &#038; his evil twin ( ¿or is he the good twin? ) “Carl Marxx”’s mind are independent living organisms. I think I saw that in a Red-Scare-era flick, <i>¡Attack o’ the Living Brain o’ Carl Marxx!</i>. It’s completely true, though: I always have to remember to keep my copy o’ <i>Das Kapital</i> fed &#038; watered every day.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/06/16/best-quiz-on-the-internet/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>my reading partner</title>
+		<link>https://www.mezunian.com/2019/06/07/my-reading-partner/</link>
+				<comments>https://www.mezunian.com/2019/06/07/my-reading-partner/#respond</comments>
+				<pubDate>Fri, 07 Jun 2019 07:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Haiku, Senryu y amigos]]></category>
+		<category><![CDATA[Poetry]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4487</guid>
+				<description><![CDATA[Bright June morn ~ my reading partner, orange peels.]]></description>
+								<content:encoded><![CDATA[<img src="https://www.mezunian.com/wp-content/uploads/2019/05/reading-partner.jpg?m=1559280094" class="mezun-post-img" alt="" />
+<div class="mezun-verse mezun-haiku">
+<p>Bright June morn ~</p>
+<p>my reading partner,</p>
+<p>orange peels.</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/06/07/my-reading-partner/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>spider brunch</title>
+		<link>https://www.mezunian.com/2019/05/31/spider-brunch/</link>
+				<comments>https://www.mezunian.com/2019/05/31/spider-brunch/#respond</comments>
+				<pubDate>Fri, 31 May 2019 07:00:35 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Haiku, Senryu y amigos]]></category>
+		<category><![CDATA[Poetry]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4483</guid>
+				<description><![CDATA[Slow May morn ~ I rinse my tea mug; spider brunch.]]></description>
+								<content:encoded><![CDATA[<img src="https://www.mezunian.com/wp-content/uploads/2019/05/spider-brunch.jpg?m=1559279468" class="mezun-post-img" alt="" />
+<div class="mezun-verse mezun-haiku">
+<p>Slow May morn ~</p>
+<p>I rinse my tea mug;</p>
+<p>spider brunch.</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/05/31/spider-brunch/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Boskeopolis Land: Let’s Code a Crappy 2D Platformer Like Millions o’ Other People on the Internet &amp; Lose Interest &amp; Give Up Only a Few Months In, Part XXXXIV: Through the Sharp Hawthorn Blow the Winds</title>
+		<link>https://www.mezunian.com/2019/05/27/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxiv-through-the-sharp-hawthor/</link>
+				<comments>https://www.mezunian.com/2019/05/27/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxiv-through-the-sharp-hawthor/#respond</comments>
+				<pubDate>Tue, 28 May 2019 04:26:05 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Boskeopolis Land]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4480</guid>
+				<description><![CDATA[’Cause everyone loves wind gimmicks. Those who have been paying attention to these posts since their earliest entries ( surely nobody ) would recall that I had been working on a level with this gimmick, forest theme, &#038; palette since near the start, but couldn’t be arsed to finish due to other levels shoving it [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><iframe class="mezun-post-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/rhfrm1yeleo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>’Cause everyone loves wind gimmicks.</p>
+<p>Those who have been paying attention to these posts since their earliest entries ( surely nobody ) would recall that I had been working on a level with this gimmick, forest theme, &#038; palette since near the start, but couldn’t be arsed to finish due to other levels shoving it aside. ’Cept for the longest time, ’twas called “Windy Woods”, which was too unbearably cliché for me ( &#038; “Gusty Glade” was already used by Rare ). Sick o’ so many Rareware alliteration names &#038; puns, I stuck with an age-ol’ Shakespeare quote, showing no regard for the fact that this level has no hawthorns, &#038; that such a name would better fit a bramble sky level than a forest level.</p>
+<p>Thanks to using such a long name, I finally forced myself to stop being a slob &#038; update the o’erworld inventory &#038; level select screens to accommodate larger level names, which was done through giving the level names in both an extra row. As o’ now, this looks weird to me; hopefully I’ll get used to it ’ventually.</p>
+<p>This was also a level, ’long with “The Minus Touch”, that I’d always planned to be 1 o’ the most challenging levels in the game ( though not nearly as challenging as “The Minus Touch” ). This can be seen in the 20-minute video, wherein, for once, I didn’t edit out the deaths @ all, so viewers can see all o’ my many failures ( since I already did the many-deaths cut for “The Minus Touch” ).</p>
+<p>Trying to make a difficult level can be difficult itself since it can be hard to tell whether difficulty is legit or cheap. In particular, I worry ’bout the birds &#038; the bouncing spike balls being beginner’s traps, since it’s hard to see them before they strike. But then, ¿isn’t challenging players to have quick reflexes perfectly legitimate? There’s also a spike ball near the start that you can’t see till it’s already falling ( ironically, just after a fake spike ball that doesn’t fall @ all ) — unintentionally, since it doesn’t fit in the camera from so high up. I left it in since it’s extremely unlikely a player will get hit by it since there’s no reason to just stand under it &#038; ’cause I thought ’twas funny to have a spike ball fall after where you’d expect it to fall. The graphics may also be crowded, making it hard to make things out. The limited palette doesn’t help.</p>
+<p>In the end, I chock this level up to be a Rareware level ’long the etchings o’ “Lightning Lookout” or, perhaps closer, “Gusty Glade”. Hell, a’least I made sure my wind mechanic stays perfectly consistent throughout the whole level.</p>
+<p>Since the level is hard ’nough to beat ( by my low standards a’least ), I didn’t put much stress on the gem &#038; time scores. I filled the level with gems, making its 20,000 ₧ requirement easy to meet if you wait round grabbing most o’ it in all the big caches. As the video shows, you can beat the time score by 6 seconds, which surprised me. I didn’t put much effort into trying to beat the time score when I 1st set it &#038;, as the video shows, I was able to spontaneously figure out a way to easily slip past the bouncing spike fruit. I’ll still keep the time score, though, since it’d be refreshing to have a time score that isn’t as stringent as possible. They’re made for ordinary players, not professional speedrunners.</p>
+<p>I’ll note that playing any other level after playing this level too much feels weird, since I’ve found I adjusted to the wind &#038; found Autumn’s newfound lack o’ resistance o’erbearing &#038; would way o’ershoot jumps.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/05/27/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxiv-through-the-sharp-hawthor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>easter bunny</title>
+		<link>https://www.mezunian.com/2019/04/29/easter-bunny/</link>
+				<comments>https://www.mezunian.com/2019/04/29/easter-bunny/#respond</comments>
+				<pubDate>Tue, 30 Apr 2019 03:11:29 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Haiku, Senryu y amigos]]></category>
+		<category><![CDATA[Poetry]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4280</guid>
+				<description><![CDATA[doesn&#8217;t know &#038; doesn&#8217;t care it&#8217;s late ~ easter bunny]]></description>
+								<content:encoded><![CDATA[<p><img class="mezun-post-img" src="https://www.mezunian.com/wp-content/uploads/2019/04/easter-bunny.jpg" alt=""></p>
+<div class="mezun-verse mezun-haiku">
+<p>doesn&#8217;t know</p>
+<p>&#038; doesn&#8217;t care it&#8217;s late ~</p>
+<p>easter bunny</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/04/29/easter-bunny/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>The Problem with Storytelling in Video Games</title>
+		<link>https://www.mezunian.com/2019/04/12/the-problem-with-storytelling-in-video-games/</link>
+				<comments>https://www.mezunian.com/2019/04/12/the-problem-with-storytelling-in-video-games/#respond</comments>
+				<pubDate>Fri, 12 Apr 2019 07:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Video Games]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4271</guid>
+				<description><![CDATA[You can’t completely break an artwork from the media it’s made in any mo’ than you can completely break the abstraction o’ anything from its concrete basis. Artwork literally can’t exist without a medium. A corollary o’ this is that if you change a work’s medium, then you change the work itself. This is why [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>You can’t completely break an artwork from the media it’s made in any mo’ than you can completely break the abstraction o’ anything from its concrete basis. Artwork literally can’t exist without a medium.</p>
+<p>A corollary o’ this is that if you change a work’s medium, then you change the work itself. This is why adaptations are so controversial. For instance, ¿why is <i>The Shining</i> movie with Jack Nicholson that’s inaccurate to King’s original book popularly viewed as superior to the mo’ faithful miniseries? ’Cause movies are different from books: what makes good literature doesn’t necessarily make good film, &amp; reverse.</p>
+<p>This applies equally to video games. The problem is, many game developers still haven’t figured this out yet, probably ’cause it’s still a young medium &amp; new media oft stumbled while trying to ape older media as it tries to figure out how to be its own thing. Much o’ video game storytelling is still done through cutscenes &amp;, e’en worse, dialogue boxes, which are just inferior versions o’ movies &amp; literature, respectively.</p>
+<p>Cutscenes aren’t nearly as bad. Theoretically, it’s possible nowadays to make cutscenes that are just as good as real movies if one uses live action or pre-rendered footage. However, in reality, the economics o’ game development has ne’er led to the existence o’ video game cutscenes that look as good as a Pixar film or have the acting &amp; directing quality o’, say, <i>The Godfather<a class="sdfootnoteanc" href="#gamestoryproblems-ftnote-1" name="gamestoryproblems-pgnote-1"><sup>1</sup></a></i>. &amp;, ’course, video games are much pricier than movies, so if the video game doesn’t offer useful gameplay, — if the game’s claim to quality is based entirely on its story — then buyers are still ripping themselves off. Video games don’t just compete with each other; they must also compete with movies &amp; literature, which are just as hungry for time &amp; money. ¿Why waste my scarce money &amp; scarcer time on a game whose claim to fame is cutscenes cluttered in chunky polygons &amp; trite writing when I could better serve my time on earth watching <i>Breaking Bad</i>? ¿Why read the 1000th medieval RPG with hokey, inaccurate “ye olde English” when I could just read Shakespeare &amp; get the authentic thing, which sounds 1000 times better?</p>
+<p>But I would rather focus on dialogue boxes, since they’re worse, &amp; worse in ways many have probably not noticed, but as someone who reads literature a’least round 2 hours per day, I have noticed quite blaringly.</p>
+<p>The easiest thing would be to point out that many games highly acclaimed for their story don’t compare much with highly acclaimed literature. People who praise the story o’ games like <i>Ocarina of Time</i> or the average <i>Final Fantasy</i> game would probably be shocked if they were to learn that, if these games’ stories were put in book form, they would be laughed out o’ any serious fantasy or science fiction guild. ( You’d think anyone who has watched <i>The Game of Thrones</i>, based on the <i>Song of Ice &amp; Fire</i> series would realize this, since the stark difference in nuance, character, &amp; world-building ’tween that series &amp; the average <i>Zelda</i> or <i>Final Fantasy</i> game is glaring ).</p>
+<p>This is likely ’cause, unlike music or art assets, the average game’s written not by professional writers, but whoever they have standing round — usually the narcissistic director ( I’m looking @ you, <i>Other M</i> ) — based on the delusion that anyone can write well. This is on the level o’ logic that any guy with the generic title “game designer” you have lying round can compose Beatles-quality music. Interestingly, 1 o’ the few video games I consider to have literature-level quality writing, <i>Mother 3</i>, was written by an actual published writer.</p>
+<p>But e’en if the words written are good, dialogue boxes are still an absolutely terrible way to tell story. It’s striking to me, ’cause e’en I hadn’t noticed it consciously till recently: I’ve always had this inexplicable preference for reading books o’er reading in video games, but couldn’t quite tell why till recently.</p>
+<p>The answer is that dialogue boxes suck. They’re tiny windows wherein you can only read a few lines o’ text @ a time, whose movement speed is oft highly constricted, &amp; wherein trying to go back &amp; read text that’s already gone by is either a pain or impossible.</p>
+<p>Contrast this with books: what I like ’bout books is that they give you complete control o’er the speed &amp; flow o’ story progression. This is why I still prefer reading to watching TV or movies or e’en watching tutorial videos online. Not only that, but I can read in whatever sequence I want. Most people think o’ reading as just a purely linear, uninterrupted path. This is why so much contemporary literature is terrible — ’cause people don’t know how to read well anymo’. No, the true way to read is to go back &amp; reread sections for clarification or just to comprehend other layers o’ the writing ( which are nonexistent in most modern literature, since, as we’ve established, they’re incompetent ). Just imagine trying to read, for example, a Shakespearean play &amp; understand the plot, the references, the meter, the rhyme, the imagery, the tone, the theme, the use o’ consonants &amp; vowels, &amp; all that when you can only read a few lines @ a time &amp; can only read them once.</p>
+<p>This is what makes the medium an important aspect o’ a work’s quality: different mediums are inherently better &amp; worse @ different things than other media. Literature is inherently superior @ giving textual info than video games or movies. E’en if one wanted dynamic, interactive textual content, web pages using JavaScript could do a better job than cumbersome text boxes, if people had the creativity to realize this untapped potential<a class="sdfootnoteanc" href="#gamestoryproblems-ftnote-2" name="gamestoryproblems-pgnote-2"><sup>2</sup></a>. This is not to say that video games are inherently inferior to literature. Something that literature absolutely <i>cannot</i> do is offer the kind o’ interactive physics or level design that a classic Mario game has. In fact, “level design” is impossible in literature. Understanding this, it should be no wonder why I have mo’ artistic respect for Mario games that use the medium o’ video games for its strengths gainst the average RPG or Zelda game that just throw together generic puzzles, level design, &amp; the most basic movement you could program just to service bootleg Tolkien told through those gimped dialogue boxes.</p>
+<p>Unfortunately, many self-described video game critics still don’t respect video games as a medium for what it does best. ¿How oft do these critics praise games based on shoddy story &amp; hardly talk ’bout level design, control, physics, the general coherence o’ gameplay mechanics, &amp;, least o’ all, the quality o’ the game’s programming beyond noticing flagrant bugs? This is probably ’cause the average game critic is probably a failed creative writer — &amp; it’s here where the ol’ acorn, “A li’l knowledge is mo’ dangerous than no knowledge” returns too true.</p>
+<p>This is troublesome, as it’s a bad influence on video games. When you consider how li’l attention the hardworking, brilliant programmers who were able to squeeze games like <i>Super Mario Bros. 3</i> onto such primitive technology as the NES compared to some jackoff who scribbled out some tripe ’bout a goody-goody hero fighting gainst a grrrr evil villain in a couple minutes &amp; puked it onto Unity, I can’t be surprised game developers nowadays just hack their games together in some bloated engine &amp; demand their customers have o’erpowered computers on a certain operating system with a certain brand o’ controller to run their bloated code with every shortcut taken. Gamers can’t complain ’bout getting shit if they can’t tell what shit is. That video games are, @ their core, code, makes this sentiment ridiculous — but it is true. Just as how ridiculous it is that so much modern literature tries to ape film in the vain hopes o’ getting a movie adaptation, ignoring that tiny li’l problem that literature sucks @ being film just as much as video games suck @ being literature.</p>
+<aside class="mezun-post-footnotes">
+<h2 class="mezun-post-footnotes-title">Footnotes</h2>
+<div id="sdfootnote1">
+<p class="sdfootnote"><a class="sdfootnotesym" href="#gamestoryproblems-pgnote-1" name="gamestoryproblems-ftnote-1">1</a> I’m not a huge filmophile, so forgive my peculiar example. I actually don’t know what would be considered a great modern film. Just be glad I didn’t pick my initial choices for examples: an e’en older movie, <i>Citizen Kane</i>, or <i>The Sopranos</i>, which isn’t e’en a movie.</p>
+</div>
+<div id="sdfootnote2">
+<p class="sdfootnote"><a class="sdfootnotesym" href="#gamestoryproblems-pgnote-2" name="gamestoryproblems-ftnote-2">2</a> ’Twould be a major digression for me to go on a rant on what a letdown the current state o’ web literature is with its mass o’ genre-fic shlock, almost all o’ which is shamelessly ripping off the only “web serial novel” anyone cares ’bout, <i>Worm</i>. ’Cause nothing is mo’ promising than taking inspiration from that artistic cesspool that was the penny paperbacks o’ the late 19th century &amp; early 20th century.</p>
+</div>
+</aside>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/04/12/the-problem-with-storytelling-in-video-games/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Fleeting spring</title>
+		<link>https://www.mezunian.com/2019/04/05/fleeting-spring/</link>
+				<comments>https://www.mezunian.com/2019/04/05/fleeting-spring/#respond</comments>
+				<pubDate>Fri, 05 Apr 2019 07:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[J. J. W. Mezun]]></dc:creator>
+				<category><![CDATA[Haiku, Senryu y amigos]]></category>
+		<category><![CDATA[Poetry]]></category>
+
+		<guid isPermaLink="false">https://www.mezunian.com/?p=4266</guid>
+				<description><![CDATA[Fleeting spring ~ flees before I get a shot, Waxing Afternoon Moon]]></description>
+								<content:encoded><![CDATA[<div class="mezun-verse mezun-haiku">
+<p>Fleeting spring ~</p>
+<p>flees before I get a shot,</p>
+<p>Waxing Afternoon Moon</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mezunian.com/2019/04/05/fleeting-spring/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk (SSL caching disabled) 
+Minified using disk
+
+Served from: www.mezunian.com @ 2019-09-04 22:02:44 by W3 Total Cache
+-->

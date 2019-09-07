@@ -1,0 +1,12 @@
+{
+    "require": {
+        "waughj/copyright-year": "^2.0",
+        "twig/twig": "^2.11",
+        "symfony/http-foundation": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BoskeopolisLand\\": "src/modules/"
+        }
+    }
+}

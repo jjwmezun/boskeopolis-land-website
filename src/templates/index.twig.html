@@ -1,0 +1,39 @@
+{% extends "base.twig.html" %}
+
+{% block body %}
+	<section class="clearfix">
+		<h2>¿What is <i>Boskeopolis Land</i></h2>
+		<p><i>Boskeopolis Land</i> is a simple action platformer based on the short story series, <i><a href="https://www.boskeopolis-stories.com">Boskeopolis Stories</a></i>. Unlike most indie platformers that aim to emulate 80s pixel-precise action-platformers on the NES, this is inspired mo’ by shorter, mo’ laid back Game Boy / Game Boy Color games. Like Game Boy games on the Super Game Boy or certain Game Boy games on the Game Boy Color, this game has a monochrome color scheme with different monochrome color palettes for different levels or schemes.</p>
+		<img src="images/autumn-keycane.gif" class="center-img right-img" alt="" />
+		<p>Autumn Springer is a thief / treasure hunter exploring Spiral Island for whatever riches she can find. 1 o’ the quirks o’ this game is that, ’stead o’ having the player go through worlds with shared themes ( world o’ forest levels followed by world o’ desert levels… ), in this game the player spirals through “cycles” o’ the same sequence o’ level themes, with the 1st level o’ each cycle a city level, the 2nd a forest level, & so on. Difficulty still gradually rises, so the 1st forest level is easy, but the 4th is challenging.</p>
+		<picture>
+			<source srcset="images/boskeopolis-land-forest-levels.png" media="(min-width: 800px)" />
+			<img src="images/boskeopolis-land-forest-levels-mobile.png" class="center-img" alt="" />
+		</picture>
+		<p>While most levels challenge you to find & collect its “keycane”, — a candy cane key — other levels require you to complete other tasks, such as defeating all enemies, staying ’live for 30 seconds, or collecting 5 Marxmas presents, or to avoid doing things before collecting the keycane, like avoid being spotted by guards or to avoid letting time run out. These “goals” are given on big yellow screens before every level.</p>
+		<img src="images/goal-message.png" class="center-img" alt="¡Knock out all the Noko no Pollos!" />
+		<p>Levels are also littered with gems you can collect for ₧ ( points ), Boskeopolis’s currency. Normal gems are worth 100₧ ( somewhere round $1 – $1.50 US ), bright gems are worth 250₧, & the rare dark gems are worth 500₧. If you beat the level, any gems you’ve collected will be added to your total on the map; however, if you fail or quit a level, you lose any gems you’ve collected in that level. Also, if you fail a level or quit a level you haven’t beaten ( the message will say “Give Up” ’stead o’ “Back to Level Select” ), you’ll lose 2,500₧ on your total. Be careful, as you can lose gems e’en if you have none & go into debt. Though debt won’t cause any serious repercussions by itself, you won’t be able to buy anything till you get your money back into the black.</p>
+		<p>₧ can be used to buy all kinds o’ things from the shops found on the o’erworld map, such as extra levels & health & oxygen upgrades.</p>
+		<img src="images/boskeopolis-land-diamond.png" class="center-img left-img" alt="" />
+		<p>Each level also has a gem high score that challenges you to collect a lot o’ ₧ in a single level playthrough that contributes to 100% completion.</p>
+		<p>In addition to gems, each level has a giant diamond hidden somewhere. This diamond doesn’t net you any ₧, but it does contribute to 100% completion.</p>
+		<p>Finally, each level also has a time high score that challenges you to beat each level as quickly as possible. Beating each level’s time score is also required for 100% completion.</p>
+	</section>
+	<section>
+		<h2>Development Articles</h2>
+		<article>
+			<h3><a href="https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/">Petrol Pond Place</a></h3>
+			<div><time datetime="2019-08-11">2019 August 11</time></div>
+			<div>
+				<iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/_P4Q1Tdvzt4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+				<p>The main delay for this level was designer’s block. I knew I wanted a level with sunset harbor graphics, but I wasn’t sure what I wanted to do with such a level. Early on I decided on implementing oil water, which basically works like the water in “Rusty Bucket Bay” in <i>Banjo-Kazooie</i>: you lose oxygen faster &amp; don’t regain your oxygen till you return to land ( as opposed to just leaving water into the air, which only stops it from decreasing, but doesn’t replenish it ). But then I had trouble figuring out what to do with said oil water.</p>
+				<p>Round that time I also wanted to have pipes you could walk through that maybe went down into the water & kept you oxygenated, but couldn’t figure out how to make it work well. This game uses block-based collision, & whole blocks were too thick for pipe walls. Plus, I wasn’t sure how to make them show you will the oil water still hid everything ’neath.</p>
+				<div><a href="https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/">Read Mo’</a></div>
+			</div>
+		</article>
+	</section>
+	<section>
+		<h2>Source Code</h2>
+		<p><a href="https://github.com/jjwmezun/boskeopolis-land">See the source code @ https://github.com/jjwmezun/boskeopolis-land</a></p>
+	</section>
+{% endblock %}
