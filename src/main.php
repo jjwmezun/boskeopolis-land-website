@@ -20,6 +20,22 @@
 	(
 		'index.twig.html',
 		[
-			'copyright_year' => new CopyrightYear( '2017' )
+			'nav' =>
+			[
+				[
+					'name' => '¿What is <i>Boskeopolis Land</i>',
+					'url'  => '#what-is-boskeopolis-land'
+				],
+				[
+					'name' => 'Latest Development Articles',
+					'url'  => '#latest-development-articles'
+				],
+				[
+					'name' => 'Source Code',
+					'url'  => '#source-code'
+				]
+			],
+			'copyright_year' => new CopyrightYear( '2017' ),
+			'articles' => ArticlesList::getList()
 		]
 	);

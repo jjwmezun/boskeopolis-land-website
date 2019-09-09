@@ -8,7 +8,7 @@
 	<link href="main.css" rel="stylesheet" />
 </head>
 <body>
-	<header>
+	<header class="hed">
 		<h1 class="logo">
 			<picture>
 				<source srcset="images/boskeopolis-land-logo.png" media="(min-width:800px)" />
@@ -17,9 +17,19 @@
 		</h1>
 		<h2 class="coming-out">Hopefully coming out in 2020</h2>
 	</header>
+
+	<nav class="nav">
+		<ul class="nav-l">
+			{% for item in nav %}
+				<li class="nav-i"><a class="nav-a" href="{{ item.url }}">{{ item.name | raw }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+
 	<div class="body clearfix">
 		{% block body %}{% endblock %}
 	</div>
+
 	<footer class="footer">
 		<p>Created by J. J. W. Mezun {{ copyright_year }}.</p>
 	</footer>

@@ -1,0 +1,46 @@
+@import '../inc/colors'
+
+@font-face
+	font-family: "Game Boy"
+	src: url( "font/game-boy.ttf" )
+
+.article
+	padding: 1em
+	background-color: rgba( 255, 255, 255, 0.75 )
+	margin: 1em auto
+
+.article-nom
+	margin: 0
+	font-size: 1.5em
+
+.article-date
+	color: #333
+	font-size: .9em
+
+.article-hed
+	margin-bottom: 1em
+
+.article-read-mo
+	text-align: center
+	margin: 2em auto 1em auto
+	font-family: "Game Boy"
+	font-size: 16px
+
+.article .article-read-mo-a
+	padding: 16px
+	box-shadow: 4px 4px 0 #000
+	&,
+	&:link,
+	&:visited
+		transition: background-color .25s, color .25s
+		background-color: $main_purple
+		color: #fff
+		text-decoration: none
+	&:hover
+		background-color: #fff
+		color: #3e1332
+
+.mezun-post-video
+	display: block
+	margin: 0 auto
+	max-width: 100%

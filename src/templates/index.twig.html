@@ -1,7 +1,7 @@
 {% extends "base.twig.html" %}
 
 {% block body %}
-	<section class="clearfix">
+	<section id="what-is-boskeopolis-land" class="sec clearfix">
 		<h2>¿What is <i>Boskeopolis Land</i></h2>
 		<p><i>Boskeopolis Land</i> is a simple action platformer based on the short story series, <i><a href="https://www.boskeopolis-stories.com">Boskeopolis Stories</a></i>. Unlike most indie platformers that aim to emulate 80s pixel-precise action-platformers on the NES, this is inspired mo’ by shorter, mo’ laid back Game Boy / Game Boy Color games. Like Game Boy games on the Super Game Boy or certain Game Boy games on the Game Boy Color, this game has a monochrome color scheme with different monochrome color palettes for different levels or schemes.</p>
 		<img src="images/autumn-keycane.gif" class="center-img right-img" alt="" />
@@ -19,20 +19,20 @@
 		<p>In addition to gems, each level has a giant diamond hidden somewhere. This diamond doesn’t net you any ₧, but it does contribute to 100% completion.</p>
 		<p>Finally, each level also has a time high score that challenges you to beat each level as quickly as possible. Beating each level’s time score is also required for 100% completion.</p>
 	</section>
-	<section>
-		<h2>Development Articles</h2>
-		<article>
-			<h3><a href="https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/">Petrol Pond Place</a></h3>
-			<div><time datetime="2019-08-11">2019 August 11</time></div>
-			<div>
-				<iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/_P4Q1Tdvzt4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
-				<p>The main delay for this level was designer’s block. I knew I wanted a level with sunset harbor graphics, but I wasn’t sure what I wanted to do with such a level. Early on I decided on implementing oil water, which basically works like the water in “Rusty Bucket Bay” in <i>Banjo-Kazooie</i>: you lose oxygen faster &amp; don’t regain your oxygen till you return to land ( as opposed to just leaving water into the air, which only stops it from decreasing, but doesn’t replenish it ). But then I had trouble figuring out what to do with said oil water.</p>
-				<p>Round that time I also wanted to have pipes you could walk through that maybe went down into the water & kept you oxygenated, but couldn’t figure out how to make it work well. This game uses block-based collision, & whole blocks were too thick for pipe walls. Plus, I wasn’t sure how to make them show you will the oil water still hid everything ’neath.</p>
-				<div><a href="https://www.mezunian.com/2019/08/11/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvi-petrol-pond-place/">Read Mo’</a></div>
-			</div>
-		</article>
+	<section class="sec" id="latest-development-articles">
+		<h2 class="article-sec-nom">Latest Development Articles</h2>
+		{% for article in articles %}
+			<article class="article">
+				<header class="article-hed">
+					<h3 class="article-nom"><a class="article-nom-a" href="{{ article.url }}">{{ article.getName }}</a></h3>
+					<div class="article-date"><time datetime="{{ article.dateRaw }}">{{ article.dateString }}</time></div>
+				</header>
+				<div class="article-content">{{ article.content | raw }}</div>
+				<div class="article-read-mo"><a class="article-read-mo-a" href="{{ article.url }}">Read Mo’</a></div>
+			</article>
+		{% endfor %}
 	</section>
-	<section>
+	<section class="sec" id="source-code">
 		<h2>Source Code</h2>
 		<p><a href="https://github.com/jjwmezun/boskeopolis-land">See the source code @ https://github.com/jjwmezun/boskeopolis-land</a></p>
 	</section>
