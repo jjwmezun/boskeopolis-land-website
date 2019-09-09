@@ -10,6 +10,7 @@
 	(
 		$loader,
 		[
+			'cache' => '/usr/share/nginx/boskeopolis-land/.twig-cache'
 		]
 	);
 	echo $twig->render
