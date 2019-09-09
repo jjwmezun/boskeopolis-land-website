@@ -1,8 +1,22 @@
 <?php
 	namespace BoskeopolisLand;
 
-	ini_set('display_errors', 0);
-	ini_set('display_startup_errors', 0);
-	error_reporting(E_NONE);
-
 	require_once( '../src/main.php' );
+	execute
+	(
+		'index',
+		[
+			[
+				'name' => '¿What is <i>Boskeopolis Land</i>',
+				'url'  => '#what-is-boskeopolis-land'
+			],
+			[
+				'name' => 'Latest Development Articles',
+				'url'  => '#latest-development-articles'
+			],
+			[
+				'name' => 'Source Code',
+				'url'  => '#source-code'
+			]
+		]
+	);
