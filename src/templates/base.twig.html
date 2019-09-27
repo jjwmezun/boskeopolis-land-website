@@ -3,31 +3,36 @@
 <head>
 	<title>Boskeopolis Land | simple action-platformer based on the short story series Boskeopolis Stories</title>
 	<meta name="description" content="A simple money-collecting action-platformer based on the short story series Boskeopolis Stories with a variety o’ level gimmicks." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="utf-8" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900,900i&display=swap" rel="stylesheet" />
-	<link href="main.css" rel="stylesheet" />
+	<link href="main.css?m=20190908" rel="stylesheet" />
 </head>
 <body>
-	<header class="hed">
-		<h1 class="logo">
-			<picture>
-				<source srcset="images/boskeopolis-land-logo.png" media="(min-width:800px)" />
-				<img class="center-img" src="images/boskeopolis-land-logo-mobile.png" alt="Boskeopolis Land" />
-			</picture>
-		</h1>
-		<h2 class="coming-out">Hopefully coming out in 2020</h2>
-	</header>
+	<div class="not-footer">
+		<header class="hed">
+			<h1 class="logo">
+				<picture>
+					<source srcset="images/boskeopolis-land-logo.png" media="(min-width:800px)" />
+					<img class="center-img" src="images/boskeopolis-land-logo-mobile.png" alt="Boskeopolis Land" />
+				</picture>
+			</h1>
+			<h2 class="coming-out">Hopefully coming out in 2020</h2>
+		</header>
 
-	<nav class="nav">
-		<ul class="nav-l">
-			{% for item in nav %}
-				<li class="nav-i"><a class="nav-a" href="{{ item.url }}">{{ item.name | raw }}</a></li>
-			{% endfor %}
-		</ul>
-	</nav>
+		{% if not nav is empty %}
+			<nav class="nav">
+				<ul class="nav-l">
+					{% for item in nav %}
+						<li class="nav-i"><a class="nav-a" href="{{ item.url }}">{{ item.name | raw }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		{% endif %}
 
-	<div class="body clearfix">
-		{% block body %}{% endblock %}
+		<div class="body clearfix">
+			{% block body %}{% endblock %}
+		</div>
 	</div>
 
 	<footer class="footer">
