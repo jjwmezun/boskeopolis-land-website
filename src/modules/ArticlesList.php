@@ -12,6 +12,12 @@ class ArticlesList
 	private const DATA =
 	[
 		[
+			'name' => 'Stop & Go Space Station',
+			'url' => 'https://www.mezunian.com/2019/09/26/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxviii-stop-go-space-station/',
+			'date' => '2019-09-26',
+			'content' => '<p><iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/n3pEGoZljSk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></p><p>I actually finished this before <a href="https://www.mezunian.com/2019/09/08/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvii-brier-flier/">“Brier Flier”</a>, but was much mo’ mixed on the quality o’ this 1 &amp; wanted to improve it mo’, ’specially its graphics. However, since then I’ve been able to think o’ any way to improve it &amp; wanted to get this out before October, when I’d rather focus on “Mind Your Manors”.</p><p>I almost rejected this level’s gimmick o’ having to stop when the screen turns red every 3 seconds for being annoying &amp; slow-paced, &amp; I still wonder if maybe I should’ve. My thought process, in addition to urging myself to get this game o’er with, was that ’twas an original &amp; memorable ’nough gimmick to be worth not being particularly fun. I also didn’t think I’d be able to think o’ anything to make this gimmick meaningful without making it feel impossible, but I think I was able to avoid that.</p>'
+		],
+		[
 			'name' => 'Brier Flier',
 			'url' => 'https://www.mezunian.com/2019/09/08/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxvii-brier-flier/',
 			'date' => '2019-09-08',
@@ -39,12 +45,12 @@ class ArticlesList
 			'url' => 'https://www.mezunian.com/2019/05/27/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxiv-through-the-sharp-hawthor/',
 			'date' => '2019-05-27',
 			'content' => '<div><iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/rhfrm1yeleo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></div><p>’Cause everyone loves wind gimmicks.</p><p>Those who have been paying attention to these posts since their earliest entries ( surely nobody ) would recall that I had been working on a level with this gimmick, forest theme, &amp; palette since near the start, but couldn’t be arsed to finish due to other levels shoving it aside. ’Cept for the longest time, ’twas called “Windy Woods”, which was too unbearably cliché for me ( &amp; “Gusty Glade” was already used by Rare ). Sick o’ so many Rareware alliteration names &amp; puns, I stuck with an age-ol’ Shakespeare quote, showing no regard for the fact that this level has no hawthorns, &amp; that such a name would better fit a bramble sky level than a forest level.</p>'
-		],
+		]/*,
 		[
 			'name' => 'Catahoneycombs',
 			'url' => 'https://www.mezunian.com/2019/03/24/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxxiii-catahoneycombs/',
 			'date' => '2019-03-24',
 			'content' => '<div><iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/WsguvNfNth0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="500" height="315" frameborder="0"></iframe></div><p>I delayed this video ’cause I felt this level may have too much content — &amp;, in particular, too many gimmicks — for just 1 level &amp; considered splitting it into 2 levels, which would conflict with my theme system, since I already had 3 mine levels &amp; no other theme where this level would fit, e’en in a game that already stretched level themes beyond their logical boundaries ( quite a hefty problem for a game revolving round revolving level themes, which needs meaningful level themes for the cycling o’ said level themes to have meaning ).</p><p><a href="https://www.mezunian.com/2019/01/26/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-xxxx/">I mentioned in an earlier post</a> that I prefer to have multiple li’l gimmicks in a level than 1 all-encompassing level gimmick so that the level doesn’t feel too 1-dimensional; however, too many gimmicks either bloat the level too long ( &amp; I feel most games have levels that are too long ) or leave some gimmicks underused, which I fear may happen here, particularly with the sticky floor gimmick. Other than a few places near the beginning that simply show without telling how sticky floors work without risk, the sticky ground is only used in 1 small section in the middle o’ the level challenging you to dodge Pufferbees while traversing sticky floor. This can be ’splained by the fact that I didn’t consider adding this gimmick till late in this level’s development: originally, this level went straight from that 1st platform with a white ant on it to the next.</p>'
-		],
+		],*/
 	];
 }
