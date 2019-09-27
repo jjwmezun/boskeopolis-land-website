@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for arg in "$@"
+do
+    scp "$arg" "jjwmezun@boskeopolis-land.com:/usr/share/nginx/boskeopolis-land/$arg"
+done
