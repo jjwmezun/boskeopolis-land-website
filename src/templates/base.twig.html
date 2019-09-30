@@ -5,18 +5,14 @@
 	<meta name="description" content="A simple money-collecting action-platformer based on the short story series Boskeopolis Stories with a variety o’ level gimmicks." />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="utf-8" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900,900i&display=swap" rel="stylesheet" />
-	<link href="main.css?m=20190908" rel="stylesheet" />
+	{% for stylesheet in stylesheets %}
+		<link href="{{ stylesheet.url }}" rel="stylesheet" />
+	{% endfor %}
 </head>
 <body>
 	<div class="not-footer">
 		<header class="hed">
-			<h1 class="logo">
-				<picture>
-					<source srcset="images/boskeopolis-land-logo.png" media="(min-width:800px)" />
-					<img class="center-img" src="images/boskeopolis-land-logo-mobile.png" alt="Boskeopolis Land" />
-				</picture>
-			</h1>
+			<h1 class="logo">{{ logo }}</h1>
 			<h2 class="coming-out">Hopefully coming out in 2020</h2>
 		</header>
 

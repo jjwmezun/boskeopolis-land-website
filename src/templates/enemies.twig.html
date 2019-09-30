@@ -1,0 +1,14 @@
+{% extends "base.twig.html" %}
+
+{% block body %}
+	<section id="what-is-boskeopolis-land" class="sec clearfix">
+		<h2>Enemies</h2>
+		{% for enemy in enemies %}
+			<div>
+				<h3>{{ enemy.name }}</h3>
+				<div>{{ enemy.image }}</div>
+				<div>{{ enemy.desc }}</div>
+			</div>
+		{% endfor %}
+	</section>
+{% endblock %}

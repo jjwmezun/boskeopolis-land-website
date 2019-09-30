@@ -1,32 +1,69 @@
 <?php
-	namespace BoskeopolisLand;
 
-	use WaughJ\CopyrightYear\CopyrightYear;
+declare( strict_types = 1 );
+namespace BoskeopolisLand;
 
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
 
-	function execute( string $page, array $nav_list = [] ) : void
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
+
+function endsWith( string $haystack, string $needle )
+{
+	$length = strlen( $needle );
+	if ( $length == 0 )
 	{
-		require_once( '../vendor/autoload.php' );
+		return true;
+	}
+	return ( substr( $haystack, -$length ) === $needle );
+}
 
-		$loader = new \Twig\Loader\FilesystemLoader( '../src/templates' );
-		$twig = new \Twig\Environment
+function execute() : Response
+{
+	require_once( '../vendor/autoload.php' );
+
+	$request = Request::createFromGlobals();
+	$path = $request->getPathInfo();
+
+	if ( !endsWith( $path, '/' ) )
+	{
+		$response = new RedirectResponse( $path . '/' );
+		$response->send();
+	}
+
+	if ( in_array( $path, [ '', '/' ] ) )
+	{
+		$template = new Template
 		(
-			$loader,
+			'index',
 			[
-				'cache' => '/usr/share/nginx/boskeopolis-land/.twig-cache'
-			]
-		);
-		echo $twig->render
-		(
-			"{$page}.twig.html",
-			[
-				'nav' =>
-				$nav_list,
-				'copyright_year' => new CopyrightYear( '2017' ),
-				'articles' => ArticlesList::getList()
+				[
+					'name' => '¿What is <i>Boskeopolis Land</i>',
+					'url'  => '#what-is-boskeopolis-land'
+				],
+				[
+					'name' => 'Latest Development Articles',
+					'url'  => '#latest-development-articles'
+				],
+				[
+					'name' => 'Source Code',
+					'url'  => '#source-code'
+				]
 			]
 		);
 	}
+	else if ( $path === '/enemies/' )
+	{
+		$template = new Template( 'enemies', [], [ 'enemies' => Enemy::getList() ] );
+	}
+	else
+	{
+		$template = new Template( '404', [] );
+	}
+
+	$response = new Response( $template->getHTML() );
+	return $response->send();
+}
