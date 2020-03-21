@@ -14,18 +14,21 @@ class Template
             self::init();
         }
 
-        $this->content = self::$twig->render
+        $attributes = 
+        [
+            'nav' => $nav_list,
+            'copyright_year' => new CopyrightYear( 2017 ),
+            'articles' => ArticlesList::getList(),
+            'stylesheets' => Stylesheet::getList(),
+            'logo' => new Logo()
+        ];
+
+        $content = self::$twig->render
         (
             "{$page}.twig.html",
-            [
-                'nav' =>
-                $nav_list,
-                'copyright_year' => new CopyrightYear( 2017 ),
-                'articles' => ArticlesList::getList(),
-                'stylesheets' => Stylesheet::getList(),
-                'logo' => new Logo()
-            ]
+            $attributes
         );
+        $this->content = $content;
     }
 
     public function getHTML() : string

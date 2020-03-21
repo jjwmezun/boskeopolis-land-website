@@ -55,10 +55,6 @@ function execute() : Response
 			]
 		);
 	}
-	else if ( $path === '/enemies/' )
-	{
-		$template = new Template( 'enemies', [], [ 'enemies' => Enemy::getList() ] );
-	}
 	else
 	{
 		$template = new Template( '404', [] );

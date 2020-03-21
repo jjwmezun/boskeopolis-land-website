@@ -1,11 +1,12 @@
 {
     "require": {
-        "waughj/copyright-year": "^2.0",
-        "twig/twig": "^2.11",
+        "waughj/copyright-year": "*",
+        "twig/twig": "*",
         "symfony/http-foundation": "^4.3",
-        "waughj/file-loader": "^0.4.2",
-        "waughj/html-picture": "^0.4.1",
-        "waughj/html-image": "^0.5.2"
+        "waughj/file-loader": "*",
+        "waughj/html-picture": "*",
+        "waughj/html-image": "*",
+        "waughj/html-tag": "^0.1.0"
     },
     "autoload": {
         "psr-4": {

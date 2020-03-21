@@ -20,7 +20,7 @@ class Image extends HTMLImage
             self::$loader = new FileLoader
             ([
                 'directory-url' => Config::URL_DIRECTORY,
-                'directory-server' => Config::SERVER_DIRECTORY,
+                'directory-server' => Config::PUBLIC_SERVER_DIRECTORY,
                 'shared-directory' => 'images'
             ]);
         }

@@ -33,7 +33,7 @@ class Stylesheet
             self::$fileloader = new FileLoader
             ([
                 'directory-url' => Config::URL_DIRECTORY,
-                'directory-server' => Config::SERVER_DIRECTORY,
+                'directory-server' => Config::PUBLIC_SERVER_DIRECTORY,
                 'shared-directory' => 'css',
                 'extension' => 'css'
             ]);
