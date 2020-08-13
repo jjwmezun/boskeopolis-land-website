@@ -13,6 +13,12 @@ class ArticlesList
 	private const DATA =
 	[
 		[
+			'name' => 'I Wanna Be Your Vacuum Cleaner',
+			'url' => 'https://www.mezunian.com/2020/08/12/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-lii-i-wanna-be-your-vacuum-clean/',
+			'date' => '2020-08-12',
+			'content' => '<div><iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/JM9fweLMklw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></div><p><a href="https://www.youtube.com/watch?v=6JmVBCAQzxI">Accompanying music</a></p><p>I’d been toying with the idea o’ a “race ’head o’ the screen” type level ( distinguished from typical autoscroll levels by the ability to go as quickly ’head as you want, rather than locking you back &amp; forcing you to wait, which I hate ) <a href="https://www.mezunian.com/2016/12/30/lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-v/">since near the beginning o’ this project.</a> As that article shows, the original idea was a basic saw. Howe’er, not only is that idea cliché, ’twould also use a factory level, &amp; I already have all 4 o’ that theme’s slots filled, while the new domestic theme has plenty o’ slots to fill.</p><p>Having decided this, I for some reason came up with the idea o’ a giant cat chasing you, but then realized that that would be far too difficult to animate, so I changed it to a vacuum, which I could just slide forward without any animation. &amp; ’cause I was extra lazy &amp; too unskilled an artist to draw a tolerable vacuum, I just used a photo o’ my vacuum. I actually like how it looks in all its sloppiness: it’s like the indie video game version o’ a B-movie monster — a B-video-game monster.</p>'
+		],
+		[
 			'name' => 'Cascade Parade',
 			'url' => 'https://www.mezunian.com/2020/05/25/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-li-cascade-parade/',
 			'date' => '2020-05-25',
