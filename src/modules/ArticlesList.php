@@ -13,6 +13,12 @@ class ArticlesList
 	private const DATA =
 	[
 		[
+			'name' => 'Don’t Touch Me, I’m a Real Live Wire',
+			'url' => 'https://www.mezunian.com/2020/10/01/boskeopolis-land-lets-code-a-crappy-2d-platformer-part-liii-dont-touch-me-im-a-real-live-wire/',
+			'date' => '2020-10-01',
+			'content' => '<div><iframe class="mezun-post-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/DTiBXTZVpMQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><p>This level’s main gimmick, electric walls that could only be deactivated with switches in ’nother area, forcing the player to race from the switch to the electric walls, was originally going to be a space level, but I felt it would be better to use this mechanic to spice up an attic maze level idea I’d been toying with, since I feel exploring a maze just to find a keycane or collect a certain # o’ gems had already been done ’nough in this game. This gimmick also helps set this level apart from the attic levels in <i>Cool Spot</i> whence this level takes perhaps a bit too much inspiration otherwise.</p><p>I’m mixed on the size o’ this level. I insisted on constructing the maze so that all space is used for something, with no large chunks o’ solid wood ( which the <i>Cool Spot</i> levels also do ). While I feel like I did a rather good job o’ that, I do worry that the level might be too big. Then ’gain, a maze needs to be large ’nough to get lost in &amp; have plenty o’ dead ends to offer any challenge, &amp; players who know their way will be able to beat the level within less than a minute. Still, part o’ me can’t help feeling like some pieces — specially the lower left section — feel like filler that exists just to collect gems.</p>'
+		],
+		[
 			'name' => 'I Wanna Be Your Vacuum Cleaner',
 			'url' => 'https://www.mezunian.com/2020/08/12/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-lii-i-wanna-be-your-vacuum-clean/',
 			'date' => '2020-08-12',
