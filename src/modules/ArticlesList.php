@@ -13,6 +13,12 @@ class ArticlesList
 	private const DATA =
 	[
 		[
+			'name' => 'I Can Go with the Flow',
+			'url' => 'https://www.mezunian.com/2020/11/22/boskeopolis-land-i-can-go-with-the-flow/',
+			'date' => '2020-11-22',
+			'content' => '<div><iframe class="mezun-post-video" src="https://www.youtube-nocookie.com/embed/KrTLgM9Ygfc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></div><p>Here’s a level I’ve been working on for a while. It’s actually a level I apparently wanted so much ’twas the primary inspiration to add the rather recent “swamp” theme to this game ( well, that &amp; my desire to use this level’s music ). This level’s main gimmick is also 1 o’ the many I ripped off from the <i>Wario Land</i> games, but with this game’s oxygen mechanic &amp; the need to aim for bubbles to keep Autumn from drowning as an extra challenge.</p><p>The reason this level took so long to finish that 2 other swamp levels were finished before it was simply that I had many 2nd thoughts ’bout this level. ¿Is it truly fun or just annoying? The current mechanic doesn’t work as well with <i>Boskeopolis Land</i>’s Mario-style swimming as <i>Wario Land</i>’s, where you’re actually swimming without gravity constantly dragging you downward, rather than constantly bopping upward in water, as in this game. I also wasn’t sure if the direction the currents are going are easy ’nough to see &amp; whether the path to the end isn’t too obscure. As a developer it’s always important to keep in mind that actually playing a map, where the camera is only showing narrow pieces o’ the map round you @ a time rather than showing the whole map in its entirety before you, is harder than navigating in a map program. While playing the level I was surprised by how much I myself got lost in the maze.</p>'
+		],
+		[
 			'name' => 'Cometropolis',
 			'url' => 'https://www.mezunian.com/2020/10/09/boskeopolis-land-lets-code-a-crappy-2d-platformer-like-millions-o-other-people-on-the-internet-lose-interest-give-up-only-a-few-months-in-part-liv-cometropolis/',
 			'date' => '2020-10-09',
